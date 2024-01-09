@@ -15,7 +15,7 @@
         <label for="The Article"  class="form-label">The Blog</label>
         <textarea class="form-control" name="blog" id="exampleFormControlTextarea1" rows="3" ><%= obj1.content_update%></textarea>
       </div>
-      
+      <input type="hidden" name="index_update" id="index_update" value="<%= obj1.tail%>">
       <button type="submit"  class="btn btn-primary">Submit</button>
         
     </form>
